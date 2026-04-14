@@ -1,0 +1,32 @@
+body {
+    background: #020617;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background: #8b5cf6;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+pre {
+    text-align: left;
+    background: #111827;
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Network Scanner</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Network Info Scanner</h1>
+
+    <input type="text" id="target" placeholder="Enter domain (example.com)">
+    <button onclick="scanTarget()">Scan</button>
+
+    <h2>IP Address:</h2>
+    <p id="ip"></p>
+
+    <h2>Open Ports:</h2>
+    <ul id="ports"></ul>
+
+    <h2>HTTP Headers:</h2>
+    <pre id="headers"></pre>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
